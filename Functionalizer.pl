@@ -1,3 +1,10 @@
+##This script takes a .txt file containing GO code information and compares the codes to a reference list.
+##Two inputs are required: a reference list in plain-text format, and a gene file being checked.
+##It will then report findings to STDOUT, with a 1 showing a match and a 0 showing no match.
+##If there is a match, the name/designation supplied with the GO code will also be output.
+##If a gene matches to more than one GO, all will be shown.
+##When processing outputs of GBFFConvert or AnnotationConverter, the script must be executed on all text files in the folder.
+
 use List::MoreUtils qw(uniq);
 
 $ReferenceFile = "$ARGV[0]";

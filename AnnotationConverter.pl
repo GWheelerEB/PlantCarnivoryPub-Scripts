@@ -1,3 +1,9 @@
+#This script extracts GO information from Blast2GO annotation files.
+#These files are plain-text, and can be obtained by selecting File->Export->Export Mapping Results in B2G.
+#The script takes two arguments: 1 - mapping file, and 2 - An organism name.
+#Its output will be a folder, named with the name of the organism, and filled with .TXT files.
+#Each file corresponds to one gene for which GO codes were found.
+
 use List::MoreUtils qw(uniq);
 
 $OrganismName = "$ARGV[1]";
@@ -45,12 +51,10 @@ for ($X = 0; $X <= $#UniqueNames; $X ++)
 	open(GeneOUT, ">", "$OrganismName\/$UniqueNames[$X].txt");
 			
 	print GeneOUT "$OrganismName\t$UniqueNames[$X]\t$GeneLength\n";
-	print "[$X of $#UniqueNames] $OrganismName\t$UniqueNames[$X]\t$GeneLength\n";
 	
 	for ($Y = 0; $Y <= $#GOList; $Y ++)
 		{
 			print GeneOUT "$GOList[$Y]\n";
-			print "\t\t$GOList[$Y]\n";
 		}
 		
 	close(GeneOUT);

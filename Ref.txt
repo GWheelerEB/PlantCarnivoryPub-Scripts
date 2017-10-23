@@ -1,0 +1,39 @@
+GO:0005884	actin filament
+GO:0004557	alpha-galactosidase activity
+GO:0009916	alternative oxidase activity
+GO:0008519	ammonium transmembrane transport
+GO:0004190	aspartic-type endopeptidase activity
+GO:0005471	ATP:ADP antiporter activity
+GO:0016887	ATPase activity
+GO:0004565	beta-galactosidase activity
+GO:0052736	beta-glucanase activity
+GO:0004568	chitinase activity
+GO:0045551	cinnamyl-alcohol dehydrogenase activity
+GO:0004112	cyclic-nucleotide phosphodiesterase activity
+GO:0008234	cysteine-type peptidase activity
+GO:1905348	endonuclease complex
+GO:0009326	formate dehydrogenase complex
+GO:0004332	fructose-bisphosphate aldolase activity
+GO:1902687	glucosidase complex
+GO:0004364	glutathione transferase activity
+GO:0072488	ammonium transmembrane transport
+GO:0016298	lipase activity
+GO:0006869	lipid transport
+GO:0015264	methylammonium channel activity
+GO:0004601	peroxidase activity
+GO:0016791	phosphatase activity
+GO:0004620	phospholipase activity
+GO:0004650	polygalacturonase activity
+GO:0090353	polygalacturonase inhibitor activity
+GO:0042803	protein homodimerization activity
+GO:0004540	ribonuclease activity
+GO:0004185	serine-type carboxypeptidase activity
+GO:0022816	sodium ion transmembrane transporter activity
+GO:0004784	superoxide dismutase activity
+GO:0055044	symplast
+GO:0019137	thioglucosidase activity
+GO:0015250	water channel activity
+GO:0097599	xylanase activity
+GO:0042026	heat shock protein activity
+GO:0006986	heat shock protein activity
+GO:0034620	heat shock protein activity
